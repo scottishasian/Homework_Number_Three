@@ -16,9 +16,12 @@ puts lines.pop
 
 # 4. Work out the index position of 'Haymarket'
 puts lines[3]
-
+puts lines.index('Haymarket')
 
 # 5. Add 'Airport' to the start of the array
+lines.insert(0, "Airport")
+print lines
+
 
 # 6. Add 'York Place' to the end of the array
 
