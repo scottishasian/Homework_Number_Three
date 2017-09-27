@@ -20,12 +20,17 @@ puts lines.index('Haymarket')
 
 # 5. Add 'Airport' to the start of the array
 lines.insert(0, "Airport")
-print lines
-
+puts "\n", lines
 
 # 6. Add 'York Place' to the end of the array
 
+lines.push("York Place")
+puts "\n\n", lines
+
 # 7. Remove 'Edinburgh Park' from the array using it's name
+
+lines.delete("Edinburgh Park")
+puts "\n", lines
 
 # 8. Delete 'Edinburgh Park' from the array by index
 
@@ -88,7 +93,7 @@ users = {
 # 4. Return the type of Avril's pet Colin
 
 # 5. Return the smallest of Erik's favorite numbers
-
+#.min
 # 6. Add the number `7` to Erik's favorite numbers
 
 # 7. Change Erik's hometown to Edinburgh
