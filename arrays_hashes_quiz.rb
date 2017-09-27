@@ -39,11 +39,15 @@ lines.delete(2) #if working with array containing airport.
 
 # 9. Reverse the positions of the stops in the array
 
+lines.reverse!()
+print "\n", lines
+
 ### B. Given the following data structure:
 
 my_hash = {"0" => "Zero", 1 => "One", :two => "Two", "two" => 2}
 
 # 1. How would you return the string `"One"`?
+puts "\n", my_hash[1]
 
 # 2. How would you return the string `"Two"`?
 
