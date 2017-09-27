@@ -15,6 +15,8 @@ puts "The 5th stop is #{lines[4]} but it is at position 4 in the array"
 puts lines.pop
 
 # 4. Work out the index position of 'Haymarket'
+puts lines[3]
+
 
 # 5. Add 'Airport' to the start of the array
 
